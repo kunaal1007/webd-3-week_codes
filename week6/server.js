@@ -19,6 +19,7 @@ const apiMiddleware=(req,res,next)=>{
     next();
 }
 
+
 //  app.use(logMiddleware);
 //  global middleware
 // app.use(apiMiddleware);
