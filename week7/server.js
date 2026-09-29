@@ -5,6 +5,7 @@ const PORT = 3000;
 
 // MIDDLEWARE
 
+
 app.get('/',(req,res,next)=>{
     try {
         throw new Error("Something went wrong!!!!1");
