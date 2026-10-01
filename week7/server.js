@@ -3,8 +3,7 @@ const app = express();
 const PORT = 3000;
 // next operations
 
-// MIDDLEWARE
-
+// MIDDLEWARE.
 
 app.get('/',(req,res,next)=>{
     try {
