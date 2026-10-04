@@ -28,7 +28,7 @@ app.get('/:id',(req,res,next)=>{
     }
 });
 
-app.use((err,req,res,next)=>{ // error middleware
+app.use((err,req,res,next)=>{    // error middleware
     res.status(500).json({success:false, message:err.message});
 })
 
